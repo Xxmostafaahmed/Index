@@ -1,0 +1,23 @@
+*{
+    margin: 0 0px;
+    padding: 0px;
+    background-color: cadetblue;
+}
+.container button{
+    background-color: yellow;
+    height: 25px;
+    width: 80px;
+    margin-left: 650px;
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+
+}
+.container p {
+    color: black;
+    text-align: center;
+    size: 50px;
+    margin-top: 75px;
+
+}

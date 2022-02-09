@@ -1,0 +1,222 @@
+.container1 li{
+    display: inline-block;
+    margin: 50px;
+    padding: 20px;
+    margin-top: 0px;
+    padding: 0px;
+    margin: 130px;
+    margin-top:30px ;
+    align-items: center;
+ 
+}
+.container1{
+    background-color: black;
+    color: white;
+    height: 70px;
+    width: 1520px;
+    border-radius: 7px;
+    border-color: aqua;
+ 
+
+}
+.con1 img{
+    margin-top: 10px;
+    margin-left: 15px;
+    /* margin-right: 600px; */
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    border-color: aquamarine;
+}
+.con1 h1{
+    display: inline-block;
+    font-size: 28px;
+    color: burlywood;
+    margin-left: 500px;
+    margin-top: 10px;
+}
+.con2 h2{
+    /* display: inline-block; */
+    font-size: 20px;
+    color: cadetblue;
+    text-align: center;
+    justify-content: center;
+    
+}
+.con3 img{
+    margin-top: 10px;
+    margin-left: 15px;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    border-color: brown;
+
+}
+.con3 h1{
+    display: inline-block;
+    font-size: 28px;
+    color: burlywood;
+    margin-left: 500px;
+    margin-top: 10px;
+}
+.con3 h2{
+    /* display: inline-block; */
+    font-size: 20px;
+    color: cadetblue;
+    text-align: center;
+    justify-content: center;
+    
+}
+.con4{
+    text-align: center;
+    /* justify-content: center; */
+    /* display: inline-block; */
+    font-size: 28px;
+    color: rgb(141, 84, 8);
+    /* margin-left: 550px; */
+    margin-top: 10px;
+
+}
+.con4 p{
+    color: rgb(90, 55, 4);
+    size: 22px;
+}
+.con5 li{
+    align-items: center;
+    display: inline-block;
+    font-size: 45px;
+    color: crimson;
+    margin: 50px;
+    margin-top: 7px;
+    margin-left: 255px;
+    padding: 50px;
+}
+.con6 h1{
+    /* display: inline-block; */
+    /* align-items: center; */
+    justify-content: center;
+    text-align: center;
+    font-size: 28px;
+    color: coral;
+    /* margin-left: 500px; */
+    margin-top: 10px;
+}
+.con6 h2{
+    /* display: inline-block; */
+    font-size: 20px;
+    color: aquamarine;
+    text-align: center;
+    justify-content: center;
+    
+}
+/* Loging form */
+body {
+    background-color: azure;
+	/* background-color: #9b59b6; */
+	/* font-family: 'Open Sans', sans-serif; */
+	/* display: flex; */
+	align-items: center;
+	justify-content: center;
+	/* min-height: 100vh; */
+	margin: 0;
+}
+.container {
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+	overflow: hidden;
+	width: 400px;
+	max-width: 100%;
+}
+
+.header {
+	border-bottom: 1px solid #f0f0f0;
+	background-color: #f7f7f7;
+	padding: 20px 40px;
+}
+
+.header h2 {
+	margin: 0;
+}
+
+.form {
+	padding: 30px 40px;	
+}
+
+.form-control {
+	margin-bottom: 10px;
+	padding-bottom: 20px;
+	position: relative;
+}
+.form-control button :hover{
+	color: aqua;
+}
+
+.form-control label {
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+.form-control input {
+	border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	font-family: inherit;
+	font-size: 14px;
+	padding: 10px;
+	width: 100%;
+}
+
+.form-control input:focus {
+	outline: 0;
+	border-color: #777;
+}
+
+.form-control.success input {
+	border-color: #2ecc71;
+}
+
+.form-control.error input {
+	border-color: #e74c3c;
+}
+
+.form-control i {
+	position: absolute;
+    visibility: hidden;
+    top: 35px;
+    left: 320px;
+}
+.form-control.success i.fa-check-circle {
+	color: #2ecc71;
+	visibility: visible;
+}
+
+.form-control.error i.fa-exclamation-circle {
+	color: #e74c3c;
+	visibility: visible;
+}
+
+.form-control small {
+	color: #e74c3c;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	visibility: hidden;
+}
+
+.form-control.error small {
+	visibility: visible;
+}
+
+.form button {
+	background-color: #8e44ad;
+	border: 2px solid #8e44ad;
+	border-radius: 4px;
+	color: #fff;
+	display: block;
+	font-family: inherit;
+	font-size: 16px;
+	padding: 10px;
+	margin-top: 20px;
+	width: 100%;
+}
